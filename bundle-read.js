@@ -1,0 +1,7 @@
+(async()=>{let fs=require("fs")
+let file=fs.readFileSync("./test-bundle.txt")
+let arbundles=require("arbundles")
+console.log(new arbundles.Bundle(Buffer.from("0ee")))
+// let bundle=new arbundles.Bundle(Buffer.from("dso"))
+// console.log(bundle.verify())
+})()
